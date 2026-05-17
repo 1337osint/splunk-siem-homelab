@@ -41,10 +41,10 @@ Alert rule: index=main EventCode=4625 | stats count by Account_Name | where coun
 ## Screenshots
 
 ### AD Security Monitor Dashboard
-![Dashboard](Splunk-Dashboard.png)
+![Dashboard](Splunk%20Dashboard.png)
 
 ### Automated Alert Configuration
-![Alert](Splunk-Alert.png)
+![Alert](Splunk%20Alert.png)
 
 ### Event Code Statistics
-![Search Results](Splunk-EventCodes-Searched.png)
+![Search Results](Splunk%20EventCodes%20Searched.png)

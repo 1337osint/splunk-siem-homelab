@@ -38,10 +38,13 @@ Account management: index=main (EventCode=4720 OR EventCode=4726 OR EventCode=47
 
 Alert rule: index=main EventCode=4625 | stats count by Account_Name | where count > 3
 
-## Skills Demonstrated
-- SIEM deployment and configuration
-- Windows Event Log analysis
-- Active Directory security monitoring
-- Splunk Search Processing Language (SPL)
-- Network configuration (pfSense, static IP, multi-adapter VM networking)
-- Linux server administration (Ubuntu, netplan, systemd)
+## Screenshots
+
+### AD Security Monitor Dashboard
+![Dashboard](Splunk-Dashboard.png)
+
+### Automated Alert Configuration
+![Alert](Splunk-Alert.png)
+
+### Event Code Statistics
+![Search Results](Splunk-EventCodes-Searched.png)
